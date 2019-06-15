@@ -1,31 +1,31 @@
 # esx_bankerjob
 
-## Requirements
+## Requisitos
 
-- [cron](https://github.com/ESX-Org/cron)
-- [esx_addonaccount](https://github.com/ESX-Org/esx_addonaccount)
-- [esx_society](https://github.com/ESX-Org/esx_society)
+- [cron](https://github.com/ESX-Brasil/cron)
+- [esx_addonaccount](https://github.com/ESX-Brasil/esx_addonaccount)
+- [esx_society](https://github.com/ESX-Brasil/esx_society)
 
-## Download & Installation
+## Download e Instalação
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
+### Usando o [fvm](https://github.com/qlaffont/fvm-installer)
 ```
-fvm install --save --folder=esx esx-org/esx_bankerjob
+fvm install --save --folder=esx ESX-Brasil/esx_bankerjob
 ```
 
-### Using Git
+### Usando o Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_bankerjob [esx]/esx_bankerjob
+git clone https://github.com/ESX-Brasil/esx_bankerjob [esx]/esx_bankerjob
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_bankerjob/archive/master.zip
-- Put it in the `[esx]` directory
+### Manualmente
+- Download https://github.com/ESX-Brasil/esx_bankerjob/archive/master.zip
+- Coloque-o no diretório `[esx]`
 
-## Installation
-- Import `esx_bankerjob.sql` in your database
-- Add this in your `server.cfg`:
+## Instalação
+- Importe `esx_bankerjob.sql` em seu banco de dados
+- Adicione isto em seu `server.cfg`:
 
 ```
 start esx_bankerjob
@@ -35,7 +35,7 @@ start esx_bankerjob
 ### License
 esx_bankerjob - bank script
 
-Copyright (C) 2015-2018 Jérémie N'gadi
+Copyright (C) 2015-2019 ESX-Brasil
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
